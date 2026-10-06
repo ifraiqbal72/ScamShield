@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scam Quiz | ScamShield</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo">
+            🛡️ Scam<span>Shield</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="scams.html">Common Scams</a></li>
+            <li><a href="passwords.html">Password Safety</a></li>
+            <li><a href="social.html">Social Safety</a></li>
+            <li><a href="quiz.html" class="active">Scam Quiz</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- Quiz Header -->
+    <section class="page-header">
+
+        <p class="small-title">TEST YOUR KNOWLEDGE</p>
+
+        <h1>Scam Safety Quiz</h1>
+
+        <p>
+            Can you identify common online scams?
+            Choose the safest answer for each situation.
+        </p>
+
+    </section>
+
+
+    <!-- Quiz -->
+    <section class="quiz-section">
+
+        <div class="quiz-box">
+
+            <!-- Question 1 -->
+            <div class="question">
+
+                <h2>1. You receive a message saying you won ₹50,000 and need to click a link to claim it. What should you do?</h2>
+
+                <label>
+                    <input type="radio" name="q1" value="wrong">
+                    Click the link immediately
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="correct">
+                    Ignore the message and verify the source
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="wrong">
+                    Share it with your friends
+                </label>
+
+            </div>
+
+
+            <!-- Question 2 -->
+            <div class="question">
+
+                <h2>2. Someone calls pretending to be a bank employee and asks for your OTP. What should you do?</h2>
+
+                <label>
+                    <input type="radio" name="q2" value="wrong">
+                    Give the OTP
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="correct">
+                    Never share the OTP
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="wrong">
+                    Send the OTP by message
+                </label>
+
+            </div>
+
+
+            <!-- Question 3 -->
+            <div class="question">
+
+                <h2>3. You find an online store offering an expensive phone at an extremely low price. What should you do?</h2>
+
+                <label>
+                    <input type="radio" name="q3" value="correct">
+                    Check whether the website is genuine
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="wrong">
+                    Pay immediately
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="wrong">
+                    Give your bank details first
+                </label>
+
+            </div>
+
+
+            <!-- Question 4 -->
+            <div class="question">
+
+                <h2>4. What is a good way to protect your online accounts?</h2>
+
+                <label>
+                    <input type="radio" name="q4" value="wrong">
+                    Use the same password everywhere
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="correct">
+                    Use strong passwords and two-factor authentication
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="wrong">
+                    Share passwords with friends
+                </label>
+
+            </div>
+
+
+            <!-- Question 5 -->
+            <div class="question">
+
+                <h2>5. A friend suddenly messages you asking for money. What is the safest action?</h2>
+
+                <label>
+                    <input type="radio" name="q5" value="wrong">
+                    Send the money immediately
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="correct">
+                    Contact your friend directly and verify
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="wrong">
+                    Share your banking details
+                </label>
+
+            </div>
+
+
+            <!-- Submit Button -->
+            <button class="quiz-btn" onclick="checkQuiz()">
+                Check My Score →
+            </button>
+
+
+            <!-- Result -->
+            <div id="quiz-result"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 ScamShield | Think Before You Click 🛡️
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
